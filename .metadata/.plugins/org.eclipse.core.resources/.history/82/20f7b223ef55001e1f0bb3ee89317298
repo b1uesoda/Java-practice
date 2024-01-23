@@ -1,0 +1,24 @@
+public class ThreeSixNine {
+	public static void main(String[] args) {
+		for(int i = 3 ; i <= 99; i++) {
+			int ten = i / 10;
+			int one = (i - (ten * 10));
+			if(ten == 3 || ten == 6 || ten == 9) {
+				i++;
+				if(one == 3 || one == 6 || one == 9) {
+					i++;
+				}
+			}
+			if(i == 1) {
+				System.out.println("¹Ú¼öÂ¦");
+			}
+			else if(i == 2) {
+				System.out.println("¹Ú¼öÂ¦Â¦");
+			}
+			
+		}
+	
+			
+		
+	}
+}
